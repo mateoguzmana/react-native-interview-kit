@@ -1,18 +1,22 @@
-import * as React from 'react';
+import React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-interview-kit';
+import { questions } from 'react-native-interview-kit';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    console.log(questions);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      {questions.map((question) => (
+        <View key={question.id} style={styles.box}>
+          <Text>{question.title}</Text>
+          <Text>{question.answer}</Text>
+          {question.link && <Text>Learn more: {question.link}</Text>}
+        </View>
+      ))}
     </View>
   );
 }

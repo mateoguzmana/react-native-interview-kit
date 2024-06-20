@@ -24,7 +24,7 @@ If you are preparing for a React Native interview, you can use this kit to pract
 
 ## Installation
 
-Some parts of this kit are also available as an NPM package, so you can create your own lists or whatever you need. You can install it using the following command:
+Some parts of this kit are also available as an NPM package, so you can create your own lists, tests or whatever you need with this content. This is built as a package just for the purpose of use this in different ways and not only for reading. You can install it using the following command:
 
 ```sh
 npm install react-native-interview-kit
