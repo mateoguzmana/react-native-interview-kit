@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-Interview Kit for React Native
-
 This is a collection of examples, exercises and questions that can be used to prepare for a React Native interview. Either as an interviewer, if you are looking to hire a React Native developer, or as an interviewee, if you are looking to get hired as a React Native developer.
 
 **Background**: I have been working with React Native for a few years now and have been involved in the hiring process for React Native developers. I have found that there is a lack of resources available to help prepare for React Native interviews. This repository is an attempt to fill that gap.
