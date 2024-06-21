@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'React Native Interview Kit',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'A collection of React Native interview questions and answers',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
