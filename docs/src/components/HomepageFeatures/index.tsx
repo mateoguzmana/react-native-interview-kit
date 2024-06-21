@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'For Interviewers',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Get inspired and tailor your interview questions to the role you are
+        hiring for.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'For Candidates',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <>Get full of confidence and prepare for your next interview.</>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Learn Something New',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Does not matter if you are a candidate or an interviewer, you will
+        hopefully learn something new.
       </>
     ),
   },

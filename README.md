@@ -13,11 +13,3 @@ Some parts of this kit are also available as an NPM package, so you can create y
 ```sh
 npm install react-native-interview-kit
 ``` -->
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT

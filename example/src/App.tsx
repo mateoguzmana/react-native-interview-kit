@@ -1,22 +1,16 @@
 import React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { questions } from 'react-native-interview-kit';
+import { healthCheck } from 'react-native-interview-kit';
 
 export default function App() {
   React.useEffect(() => {
-    console.log(questions);
+    healthCheck();
   }, []);
 
   return (
     <View style={styles.container}>
-      {questions.map((question) => (
-        <View key={question.id} style={styles.box}>
-          <Text>{question.title}</Text>
-          <Text>{question.answer}</Text>
-          {question.link && <Text>Learn more: {question.link}</Text>}
-        </View>
-      ))}
+      <Text>Hello from react-native-interview-kit example</Text>
     </View>
   );
 }
@@ -26,10 +20,5 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
   },
 });
