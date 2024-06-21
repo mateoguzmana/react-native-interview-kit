@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://mateoguzmana.github.io',
+  url: 'https://mateoguzmana.github.io/react-native-interview-kit',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/react-native-interview-kit/',
