@@ -14,6 +14,6 @@ I have also done several interviews myself and have found that the questions and
 
 Depending on your use case, the purpose of this kit is also that you can fork this repository and customize it to suit your needs. You can add your own questions, exercises, and examples to the kit and then use it for interviews.
 
-## For Interviewees
+## For Candidates
 
 If you are preparing for a React Native interview, you can use this kit to practice and prepare for the interview. You can go through the questions, exercises, and examples in this kit to get a better understanding of what to expect during the interview.
