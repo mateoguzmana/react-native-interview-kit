@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mateoguzmana/react-native-interview-kit/blob/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mateoguzmana/react-native-interview-kit/blob/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -71,7 +71,7 @@ const config: Config = {
           label: 'Introduction',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/mateoguzmana/react-native-interview-kit',
           label: 'GitHub',
           position: 'right',
         },
